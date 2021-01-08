@@ -1,0 +1,302 @@
+body{
+    margin: 0px;
+}
+.menu{
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+
+} 
+.menu-item{
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+}
+.menu-item:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    
+}
+.intro-para{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: indigo;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
+    
+}
+.dropdown{
+    display: none;
+}
+
+.menu-item:hover .dropdown{
+    height: 120px;
+    width: 300px;
+    background-color: indigo;
+    position:absolute;
+    top:38px;
+    display:block;
+    
+}
+.dropdown-item{
+    font-size: 15px;
+    padding: 10px;
+}
+.dropdown-item:hover{
+    background-color:black;
+}
+a.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.img-container{
+    position: absolute;
+    left:0;
+    top:150px;
+    width: 100%;
+    height: 600px;
+    animation: animate-tourism 16s ease-in infinite;
+
+}
+
+@keyframes animate-tourism{
+    0%{
+        background-image: url(images/mbs.jpg);
+    }
+    25%{
+        background-image: url(images/seaaqua.jpg);
+    }
+    50%{
+        background-image: url(images/pulauubin.jpg);
+    }
+    75%{
+        background-image: url(images/birdpark.jpg);
+    }
+    100%{
+        background-image: url(images/mbs.jpg);
+    }
+
+
+}
+
+.img-outer{
+    position:absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background: rgba(0,0,0,0,0.5);
+}
+
+.img-text-details{
+    position:absolute;
+    top:40%;
+    right:25%;
+    text-align: center;
+}
+.img-text-details h1{
+    font-style: oblique;
+    color: whitesmoke;
+}
+.img-text-details h2{
+    color: red;
+    font-family: monospace;
+}
+
+.main-food-container{
+    position: absolute;
+    left:0;
+    top:150px;
+    width: 100%;
+    height: 400px;
+}
+
+.food-container-1{
+    animation: animate-food-1 16s ease-out infinite;
+    position: absolute;
+    top:0;
+    right:33%;
+    left:3%;
+    width: 30%;
+    height:400px;
+}
+.food-container-2{
+    animation: animate-food-2 16s ease-out infinite;
+    position: absolute;
+    top:0;
+    left: 36%;
+    right: 66%;
+    width: 30%;
+    height:400px;
+}
+.food-container-3{
+    animation: animate-food-3 16s ease-out infinite;
+    position: absolute;
+    top:0;
+    right:97%;
+    left:69%;
+    width: 27%;
+    height:400px;
+
+}
+@keyframes animate-food-1{
+    0%{
+        background-image: url(images/bao.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    25%{
+        background-image: url(images/pizza.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    50%{
+        background-image: url(images/prata.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    75%{
+        background-image: url(images/cake.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    100%{
+        background-image: url(images/bao.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+}
+
+@keyframes animate-food-2{
+    0%{
+        background-image: url(images/indianspread.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    25%{
+        background-image: url(images/lohei.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    50%{
+        background-image: url(images/padthai.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    75%{
+        background-image: url(images/burger.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    100%{
+        background-image: url(images/indianspread.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+}
+
+@keyframes animate-food-3{
+    0%{
+        background-image: url(images/koi.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    25%{
+        background-image: url(images/nasilemak.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    50%{
+        background-image: url(images/springrolls.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    75%{
+        background-image: url(images/coconutwater.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+    100%{
+        background-image: url(images/koi.jpg);
+        box-shadow: 0px 30px 40px -25px rgba(0,0,0,1);
+    }
+}
+
+.food-button-location{
+    position: absolute;
+    top: 600px;
+    width : 100%;
+    height: 400px;
+    
+}
+.food-button{
+    position: absolute;
+    left:30%;
+}
+button:hover{
+    background-color: indigo;
+    color: white;
+
+}
+
+.main-button{
+    font-size: 24px;
+    background-color:darkred;
+    color: WHITE;
+    border: 1;
+}
+.minor-button{
+    font-size: 16px;
+    background-color: indigo;
+    color: white;
+}
+.minor-button:hover{
+    cursor: pointer;
+    background-color: lightcyan;
+    color: black;
+}
+.food-buttons-row1{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+.food-buttons-row2{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+}
+.button1{
+    position: absolute;
+    top:0;
+    left:20%;
+    right:30%
+}
+
+.button2{
+    position: absolute;
+    top:0;
+    left:50%;
+    
+}
+
+.button3{
+    position: absolute;
+    top:0;
+    left:80%;
+    right:100%;
+}
+
+.hidden-restaurants{
+    position: absolute;
+    top: 50px;
+    display:block;
+    font: bolder;
+    font-size: 18px;
+    color: black;
+
+}
+.logo-image{
+    position: absolute;
+    top:150px;
+    width:100%;
+    height:100%;
+    background-image: url(images/logocrop.jpg);
+    align-items: center;
+
+}
+
