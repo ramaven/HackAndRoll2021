@@ -4,7 +4,7 @@
 
 Team Members: Rama Venkatesh and Yin Ruoyan (@ruoyann)
 
-This was our first ever technical hackathon. It was our first time creating a website and a telegram bot. 
+This was our first ever technical hackathon. It was our first time creating a website and a telegram bot. This project serves as a platform to aid users in carrying endless conversations with their new friends on telegram, as facilitated by our wide diversity of categories and a website that brings users to explore even more places and activities in Singapore
 
 Technologies used: HTML, CSS, Javascript, Python
 
